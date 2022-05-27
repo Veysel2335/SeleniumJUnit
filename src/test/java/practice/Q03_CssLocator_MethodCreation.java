@@ -23,6 +23,8 @@ public class Q03_CssLocator_MethodCreation {
     2.deleteButtonsAndValidate()
  */
     public static void main(String[] args) {
+
+    
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/add_remove_elements/");
